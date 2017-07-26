@@ -3,7 +3,7 @@
         <div class="noted-grid" v-if="todoList.length>0">
             <div class="grid-item" v-for="(item,index) in todoList" :key="index">
                 <div class="item-index">
-                    <div class="item-wrap">{{item.id}}</div>
+                    <div class="item-wrap">{{item.id+1}}</div>
                 </div>
                 <div class="item-title">
                     <div class="item-wrap">{{item.title}}</div>
